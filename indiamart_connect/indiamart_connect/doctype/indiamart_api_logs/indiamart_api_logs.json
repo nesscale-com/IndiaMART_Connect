@@ -1,0 +1,90 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "autoname": "IMARTLOG.#####",
+  "creation": "2023-09-08 21:57:24.798521",
+  "default_view": "List",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "url",
+    "column_break_d4uts",
+    "datetime",
+    "section_break_gjp01",
+    "status",
+    "failure_message",
+    "column_break_4bsmq",
+    "response"
+  ],
+  "fields": [
+    {
+      "fieldname": "url",
+      "fieldtype": "Code",
+      "label": "URL",
+      "read_only": 1
+    },
+    {
+      "fieldname": "column_break_d4uts",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "datetime",
+      "fieldtype": "Datetime",
+      "in_list_view": 1,
+      "label": "Datetime",
+      "read_only": 1
+    },
+    {
+      "fieldname": "section_break_gjp01",
+      "fieldtype": "Section Break"
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Read Only",
+      "in_list_view": 1,
+      "label": "Status",
+      "read_only": 1
+    },
+    {
+      "fieldname": "column_break_4bsmq",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "response",
+      "fieldtype": "JSON",
+      "label": "Response"
+    },
+    {
+      "fieldname": "failure_message",
+      "fieldtype": "Small Text",
+      "label": "Failure message",
+      "read_only": 1
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2023-09-08 00:02:01.243621",
+  "modified_by": "Administrator",
+  "module": "Indiamart Connect",
+  "name": "IndiaMART API Logs",
+  "naming_rule": "Expression (old style)",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": []
+}

@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include indiamart_connect *.css
+recursive-include indiamart_connect *.csv
+recursive-include indiamart_connect *.html
+recursive-include indiamart_connect *.ico
+recursive-include indiamart_connect *.js
+recursive-include indiamart_connect *.json
+recursive-include indiamart_connect *.md
+recursive-include indiamart_connect *.png
+recursive-include indiamart_connect *.py
+recursive-include indiamart_connect *.svg
+recursive-include indiamart_connect *.txt
+recursive-exclude indiamart_connect *.pyc

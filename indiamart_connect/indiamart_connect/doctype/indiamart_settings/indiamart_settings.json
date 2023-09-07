@@ -1,0 +1,70 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "creation": "2023-09-08 21:52:51.028221",
+  "default_view": "List",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "api_key",
+    "last_fetch_updated_time",
+    "column_break_6xyqu",
+    "url",
+    "section_break_p5ce1",
+    "fetch_now"
+  ],
+  "fields": [
+    {
+      "fieldname": "api_key",
+      "fieldtype": "Password",
+      "label": "API Key"
+    },
+    {
+      "fieldname": "last_fetch_updated_time",
+      "fieldtype": "Datetime",
+      "label": "Last Fetch Updated Time"
+    },
+    {
+      "fieldname": "column_break_6xyqu",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "url",
+      "fieldtype": "Small Text",
+      "label": "URL"
+    },
+    {
+      "fieldname": "section_break_p5ce1",
+      "fieldtype": "Section Break"
+    },
+    {
+      "fieldname": "fetch_now",
+      "fieldtype": "Button",
+      "label": "Fetch Now"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "issingle": 1,
+  "links": [],
+  "modified": "2023-08-06 21:52:51.028221",
+  "modified_by": "Administrator",
+  "module": "Indiamart Connect",
+  "name": "IndiaMART Settings",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "print": 1,
+      "read": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": []
+}

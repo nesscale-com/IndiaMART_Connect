@@ -1,0 +1,213 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "autoname": "field:unique_query_id",
+  "creation": "2023-09-08 22:23:14.934909",
+  "default_view": "List",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "unique_query_id",
+    "column_break_v6svn",
+    "query_type",
+    "column_break_jjsit",
+    "query_time",
+    "section_break_exybw",
+    "sender_name",
+    "sender_company",
+    "subject",
+    "sender_country_iso",
+    "column_break_rc3j5",
+    "sender_mobile",
+    "sender_mobile_alt",
+    "sender_address",
+    "sender_phone",
+    "sender_phone_alt",
+    "column_break_zypss",
+    "sender_email",
+    "sender_city",
+    "sender_state",
+    "sender_pincode",
+    "sender_email_alt",
+    "section_break_iptdw",
+    "query_product_name",
+    "column_break_c7dij",
+    "query_message",
+    "call_duration",
+    "column_break_1uwm4",
+    "query_mcat_name",
+    "receiver_mobile"
+  ],
+  "fields": [
+    {
+      "fieldname": "unique_query_id",
+      "fieldtype": "Data",
+      "label": "UNIQUE_QUERY_ID",
+      "unique": 1
+    },
+    {
+      "fieldname": "query_type",
+      "fieldtype": "Data",
+      "label": "QUERY_TYPE"
+    },
+    {
+      "fieldname": "query_time",
+      "fieldtype": "Data",
+      "label": "QUERY_TIME"
+    },
+    {
+      "fieldname": "section_break_exybw",
+      "fieldtype": "Section Break"
+    },
+    {
+      "fieldname": "sender_name",
+      "fieldtype": "Data",
+      "label": "SENDER_NAME"
+    },
+    {
+      "fieldname": "sender_mobile",
+      "fieldtype": "Data",
+      "label": "SENDER_MOBILE"
+    },
+    {
+      "fieldname": "sender_email",
+      "fieldtype": "Data",
+      "label": "SENDER_EMAIL"
+    },
+    {
+      "fieldname": "subject",
+      "fieldtype": "Data",
+      "label": "SUBJECT"
+    },
+    {
+      "fieldname": "sender_company",
+      "fieldtype": "Data",
+      "label": "SENDER_COMPANY"
+    },
+    {
+      "fieldname": "sender_address",
+      "fieldtype": "Data",
+      "label": "SENDER_ADDRESS",
+      "read_only": 1
+    },
+    {
+      "fieldname": "sender_city",
+      "fieldtype": "Data",
+      "label": "SENDER_CITY"
+    },
+    {
+      "fieldname": "sender_state",
+      "fieldtype": "Data",
+      "label": "SENDER_STATE"
+    },
+    {
+      "fieldname": "sender_pincode",
+      "fieldtype": "Data",
+      "label": "SENDER_PINCODE"
+    },
+    {
+      "fieldname": "sender_country_iso",
+      "fieldtype": "Data",
+      "label": "SENDER_COUNTRY_ISO"
+    },
+    {
+      "fieldname": "sender_mobile_alt",
+      "fieldtype": "Data",
+      "label": "SENDER_MOBILE_ALT"
+    },
+    {
+      "fieldname": "sender_phone",
+      "fieldtype": "Data",
+      "label": "SENDER_PHONE"
+    },
+    {
+      "fieldname": "sender_phone_alt",
+      "fieldtype": "Data",
+      "label": "SENDER_PHONE_ALT"
+    },
+    {
+      "fieldname": "sender_email_alt",
+      "fieldtype": "Data",
+      "label": "SENDER_EMAIL_ALT"
+    },
+    {
+      "fieldname": "query_product_name",
+      "fieldtype": "Data",
+      "label": "QUERY_PRODUCT_NAME"
+    },
+    {
+      "fieldname": "query_message",
+      "fieldtype": "Data",
+      "label": "QUERY_MESSAGE"
+    },
+    {
+      "fieldname": "query_mcat_name",
+      "fieldtype": "Data",
+      "label": "QUERY_MCAT_NAME"
+    },
+    {
+      "fieldname": "call_duration",
+      "fieldtype": "Data",
+      "label": "CALL_DURATION"
+    },
+    {
+      "fieldname": "receiver_mobile",
+      "fieldtype": "Data",
+      "label": "RECEIVER_MOBILE"
+    },
+    {
+      "fieldname": "column_break_v6svn",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "column_break_jjsit",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "column_break_rc3j5",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "column_break_zypss",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "section_break_iptdw",
+      "fieldtype": "Section Break"
+    },
+    {
+      "fieldname": "column_break_c7dij",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "column_break_1uwm4",
+      "fieldtype": "Column Break"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2023-09-08 00:04:06.780386",
+  "modified_by": "Administrator",
+  "module": "Indiamart Connect",
+  "name": "IndiaMART Query",
+  "naming_rule": "By fieldname",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": []
+}
